@@ -1,0 +1,41 @@
+{
+  "name": "awesome-agenda",
+  "main": "./dist/index.js",
+  "description": "A beautiful and customizable agenda/calendar component for React Native",
+  "version": "1.0.0",
+  "module": "./dist/index.esm.js",
+  "types": "./dist/index.d.js",
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [
+    "react-native",
+    "agenda",
+    "calendar",
+    "scheduler",
+    "events",
+    "timeline",
+    "awesome",
+    "awesome-agenda"
+  ],
+  "peerDependencies": {
+    "react": ">=17.0.0",
+    "react-native": ">=0.70.0"
+  },
+  "dependencies": {
+    "@react-native-community/datetimepicker": "^8.4.2",
+    "react-native-safe-area-context": "^5.4.0"
+  },
+  "devDependencies": {
+    "@types/react": "~19.0.10",
+    "@types/react-native": "^0.73.0",
+    "tsup": "^8.5.0",
+    "typescript": "~5.8.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YureshTharushika/awesome-agenda"
+  },
+  "author": "Yuresh Tharushika",
+  "license": "MIT"
+}

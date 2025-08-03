@@ -1,0 +1,34 @@
+# Source files (only publish dist/)
+src/
+tsconfig.json
+tsup.config.ts
+
+# Development files
+.expo/
+.vscode/
+example/
+screenshots/
+demo/
+
+# Build artifacts
+*.tgz
+.DS_Store
+.env*
+
+# Testing
+__tests__/
+*.test.*
+jest.config.*
+
+# Development dependencies
+node_modules/
+
+# Git
+.git/
+.gitignore
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
