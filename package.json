@@ -2,7 +2,7 @@
   "name": "awesome-agenda",
   "main": "./dist/index.js",
   "description": "A beautiful and customizable agenda/calendar component for React Native",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "module": "./dist/index.esm.js",
   "types": "./dist/index.d.js",
   "scripts": {
