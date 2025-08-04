@@ -384,7 +384,7 @@ const tomorrow = addDays(today, 1); // "2025-08-04"
 - Intuitive event creation and editing
 - Clear time indicators and navigation
 
-![Light Theme](assets/images/merged_lightmode.png)
+![Light Theme](https://raw.githubusercontent.com/YureshTharushika/awesome-agenda/main/assets/images/merged_lightmode.png)
 
 ### Dark Theme
 
@@ -392,7 +392,7 @@ const tomorrow = addDays(today, 1); // "2025-08-04"
 - Vibrant accent colors for better contrast
 - Consistent with system dark mode
 
-![Dark Theme](assets/images/merged_darkmode.png)
+![Dark Theme](https://raw.githubusercontent.com/YureshTharushika/awesome-agenda/main/assets/images/merged_darkmode.png)
 
 ## 🤝 Contributing
 

@@ -9,6 +9,7 @@ tsup.config.ts
 example/
 screenshots/
 demo/
+assets/
 
 # Build artifacts
 *.tgz
